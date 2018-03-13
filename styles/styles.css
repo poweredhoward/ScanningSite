@@ -1,3 +1,13 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 #mainBody{
     background-color: white;
     display: inline-block;
@@ -5,7 +15,8 @@
     margin-right: 310px;
     margin-top: 10px;
     margin-bottom: 10px;
-   /* margin: auto;*/
+    padding: 10px;
+    min-width: 1050px;
     }
 
 .guarantee{
@@ -38,8 +49,41 @@
 
 }
 
-#navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/*#navbar{
+    text-align: center;
 }
+
+#navbar ul{
+    display: inline-block;
+    margin: 0 auto;
+    list-style-type: none;
+
+}
+
+#navbar li{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}*/
+
+#navbar ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 90%;
+    margin: 0;
+
+}
+#navbar li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
+#missionImage{
+display: block;
+margin-right: auto;
+margin-left: auto;
+width: 50%;
+  }
