@@ -8,6 +8,10 @@ body {
     vertical-align: middle;
 }
 
+h2{
+    color: #643815;
+}
+
 #mainBody{
     background-color: white;
     display: inline-block;
@@ -27,16 +31,30 @@ body {
 /*      display: inline-block;
 */      border-width: 3px;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     text-align: center;
 
 }
+
+#guaranteebox{
+
+    border-style: solid;
+    background-color:  #592C02;;
+    border-radius: 15px;
+/*      display: inline-block;
+*/      border-width: 3px;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    
+
+    }
 
 #free{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 37%;
+    width: 48%;
 }
 
 #medical td, #medical th{
