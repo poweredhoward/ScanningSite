@@ -8,7 +8,7 @@ body {
     vertical-align: middle;
 }
 
-h2{
+h2, h3{
     color: #643815;
 }
 
@@ -39,10 +39,11 @@ h2{
 #guaranteebox{
 
     border-style: solid;
+    border-color: #8AE4FF;
     background-color:  #592C02;;
     border-radius: 15px;
 /*      display: inline-block;
-*/      border-width: 3px;
+*/      border-width: 2px;
     margin: 0 auto;
     width: 40%;
     text-align: center;
