@@ -45,6 +45,17 @@
 
 	</div>
 
+	<script>
+  window.addEventLisetner('load', function() {
+    document.querySelector('a[href="mailto:underbudgetandontime@gmail.com"]').onclick = function() {
+      gtag('event', 'click', {
+        'event_category': 'link',
+        'event_label': 'email'
+      });
+    };
+ 		 });
+	</script>
+
 
 		</body>
 	</html>
